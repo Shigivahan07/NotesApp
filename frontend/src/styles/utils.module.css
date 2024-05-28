@@ -1,0 +1,92 @@
+.blockCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.addButton{
+    background-color: grey;
+    color: black;
+    border-width: 0px;
+}
+.addButton:hover{
+    background-color: white;
+    color: black;
+}
+.width100{
+    background-color: grey;
+    color: black;
+    border-width: 0px;
+    width: 100%;
+}
+.width100:hover{
+    background-color: black;
+
+}
+
+.colorOf{
+    background-color: grey;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    text-align: center;
+    background-color: grey;
+    color: #333;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.heading {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 500;
+}
+
+.paragraph {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.Paragraph {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.NoParagraph {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
